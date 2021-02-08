@@ -225,3 +225,134 @@
 	text-decoration: none;
 	color: rgba(0, 0, 0, 0.7);
 }
+
+/* Authen form */
+
+.auth-form {
+	width: 500px;
+	border-radius: 5px;
+	background-color: var(--white-color);
+	overflow: hidden;
+}
+
+.auth-form__container {
+	padding: 0 32px;
+}
+
+.auth-form__header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 8px;
+	margin-top: 12px;
+}
+
+.auth-form__heading {
+	font-size: 2.2rem;
+	font-weight: 400;
+}
+
+.auth-form__switch {
+	font-size: 1.5rem;
+	color: var(--primary-color);
+}
+
+.auth-form__switch:hover {
+	filter: brightness(120%);
+	cursor: pointer;
+}
+
+.auth-form__input {
+	width: 100%;
+	height: 40px;
+	font-size: 1.3rem;
+	margin-top: 16px;
+	padding: 0 12px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+
+.auth-form__aside {
+	margin-top: 15px;
+}
+
+.auth-form__policy-text {
+	font-size: 1.15rem;
+	line-height: 1.6rem;
+	text-align: center;
+	padding: 0 12px;
+}
+
+.auth-form__text-link {
+	text-decoration: none;
+	color: var(--primary-color);
+}
+
+/* Button */
+
+.auth-form__controls {
+	margin-top: 80px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.btn.btn--primary {
+	margin-left: 10px;
+}
+
+/* Socials */
+
+.auth-form__socials-icon {
+	font-size: 1.8rem;
+}
+
+.auth-form__socials {
+	padding: 12px 32px;
+	background-color: #f5f5f5;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 16px;
+}
+
+.auth-form__socials-fb {
+	background-color: #3a5a98;
+	color: var(--white-color);
+	margin-right: 10px;
+}
+
+.auth-form__socials-google {
+	background-color: #4285f4;
+	color: var(--white-color);
+	margin-left: 10px;
+}
+
+.auth-form__socials-icon {
+	margin: 0 15px 0 5px;
+}
+
+.btn--with-icon {
+	flex: 1;
+}
+
+/*  */
+.auth-form__help {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 16px;
+}
+
+.auth-form__help-link {
+	text-decoration: none;
+	font-size: 1.4rem;
+	color: #939393;
+}
+
+.auth-form__help-link--primary {
+	color: var(--primary-color);
+}
+
+.auth-form__help-separate {
+	display: flex;
+	border-left: 1px solid #939393;
+	margin: 0 16px;
+}
