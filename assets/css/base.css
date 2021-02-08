@@ -81,6 +81,8 @@ html {
 	left: 0;
 	display: flex;
 	animation: fadeIn linear 0.2s;
+	/* hide modal */
+	display: none;
 }
 
 .modal__overlay {
