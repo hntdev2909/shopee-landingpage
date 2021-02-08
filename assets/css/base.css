@@ -6,6 +6,10 @@
 	--text-color: #333;
 	--primary-color: #ee4d2d;
 	--second-color: #f8b3a6;
+
+	--navbar-height: 34px;
+	--header-height: 120px;
+	--header-search-height: calc(var(--header-height) - var(--navbar-height));
 }
 
 * {
@@ -58,6 +62,16 @@ html {
 	}
 }
 
+@keyframes growth {
+	0% {
+		transform: scale(0);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
 /* Modal */
 .modal {
 	position: fixed;
@@ -66,6 +80,7 @@ html {
 	bottom: 0;
 	left: 0;
 	display: flex;
+	animation: fadeIn linear 0.2s;
 }
 
 .modal__overlay {
@@ -79,6 +94,7 @@ html {
 	margin: 0 auto;
 	align-self: center;
 	z-index: 1;
+	animation: growth linear 0.2s;
 }
 
 /* Button style */

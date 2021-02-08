@@ -1,11 +1,12 @@
 .header {
-	height: 120px;
+	height: var(--header-height);
 	background-image: linear-gradient(0, #fe6433, #f53e2d);
 }
 
 .header__navbar {
 	display: flex;
 	justify-content: space-between;
+	height: var(--navbar-height);
 }
 
 .header__navbar-list {
@@ -355,4 +356,36 @@
 	display: flex;
 	border-left: 1px solid #939393;
 	margin: 0 16px;
+}
+
+/* Header logo */
+
+.header-with-search {
+	height: var(--header-search-height);
+	display: flex;
+	align-items: center;
+}
+
+.header__logo {
+	width: 200px;
+}
+
+.header__logo-img {
+	width: 150px;
+}
+
+.header__search {
+	flex: 1;
+	height: 40px;
+	background-color: var(--white-color);
+}
+
+.header__cart {
+	width: 150px;
+	text-align: center;
+}
+
+.header__cart-icon {
+	font-size: 2.4rem;
+	color: var(--white-color);
 }
