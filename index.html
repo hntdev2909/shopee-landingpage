@@ -4,10 +4,196 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Shopee</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+			integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+			integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="shortcut icon"
+			href="https://shopee.vn/favicon.ico"
+			type="image/x-icon"
+		/>
 		<link rel="stylesheet" href="./assets/css/base.css" />
 		<link rel="stylesheet" href="./assets/css/style.css" />
 	</head>
 	<body>
+		<div class="app">
+			<header class="header">
+				<div class="grid">
+					<nav class="header__navbar">
+						<ul class="header__navbar-list">
+							<li class="header__navbar-item header__navbar-item--separate">
+								Kênh người bán
+							</li>
+							<li class="header__navbar-item header__navbar-item--separate">
+								Tải ứng dụng
+								<div class="header__qr">
+									<img
+										src="./assets/img/qr.png"
+										alt="QR Code"
+										class="header__qr-img"
+									/>
+									<div class="header__qr-apps">
+										<img
+											src="./assets/img/app.png"
+											alt=""
+											class="header__qr-download-img"
+										/>
+										<img
+											src="./assets/img/ch.png"
+											alt=""
+											class="header__qr-download-img"
+										/>
+									</div>
+								</div>
+							</li>
+							<li class="header__navbar-item">
+								<span class="header__navbar-title--no-pointer">Kết nối</span>
+								<a href="" class="header__navbar-icon-link">
+									<i class="header__navbar-icon fab fa-facebook-square"></i>
+								</a>
+								<a href="" class="header__navbar-icon-link">
+									<i class="header__navbar-icon fab fa-instagram"></i>
+								</a>
+							</li>
+						</ul>
+						<ul class="header__navbar-list">
+							<li class="header__navbar-item">
+								<a href="" class="header__navbar-item-link">
+									<i class="header__navbar-icon far fa-bell"></i>
+									Thông báo
+								</a>
+								<div class="header__notify">
+									<header class="header__notify-header">
+										<h3>Thông báo mới nhận</h3>
+									</header>
+									<ul class="header__notify-list">
+										<li class="header__notify-item">
+											<a href="#" class="header__notify-link">
+												<img
+													src="./assets/img/buket.jpeg"
+													alt="Img"
+													class="header__notify-img"
+												/>
+												<div class="header__notify-info">
+													<span class="header__notify-info--name"
+														>Nón bucket vành cụp GENZ trơn nhiều màu phong cách
+														Ulzzang Unisex ZA015</span
+													>
+													<span class="header__notify-info--des"
+														>Mã MABRT220 hoàn 15% đơn 99K tối đa 50K xu</span
+													>
+												</div>
+											</a>
+										</li>
+										<li class="header__notify-item">
+											<a href="#" class="header__notify-link">
+												<img
+													src="./assets/img/item4.png"
+													alt="Img"
+													class="header__notify-img"
+												/>
+												<div class="header__notify-info">
+													<span class="header__notify-info--name">
+														Săn mã giảm 500K đơn 0Đ
+													</span>
+													<span class="header__notify-info--des"
+														>THỬ THÁCH PHI DAO có giải lơn. Số lượng có hạn, vào
+														nhanh kẻo lỡ</span
+													>
+												</div>
+											</a>
+										</li>
+										<li class="header__notify-item">
+											<a href="#" class="header__notify-link">
+												<img
+													src="./assets/img/item2.jpeg"
+													alt="Img"
+													class="header__notify-img"
+												/>
+												<div class="header__notify-info">
+													<span class="header__notify-info--name"></span>
+													<span class="header__notify-info--des"
+														>Xem bài đăng của vivanoffical_store: Chúc bạn và
+														gia trình năm mới nhiều may mắn!</span
+													>
+												</div>
+											</a>
+										</li>
+										<li class="header__notify-item">
+											<a href="#" class="header__notify-link">
+												<img
+													src="./assets/img/item5.jpeg"
+													alt="Img"
+													class="header__notify-img"
+												/>
+												<div class="header__notify-info">
+													<span class="header__notify-info--name"></span>
+													<span class="header__notify-info--des"
+														>Xem bài đăng của shopee.vn: KHOE SHOP BÁN TẾT -
+														RINH SIÊU LÌ XÌ</span
+													>
+												</div>
+											</a>
+										</li>
+										<li class="header__notify-item">
+											<a href="#" class="header__notify-link">
+												<img
+													src="./assets/img/item3.jpeg"
+													alt="Img"
+													class="header__notify-img"
+												/>
+												<div class="header__notify-info">
+													<span class="header__notify-info--name"
+														>Giao kiện hàng thành công</span
+													>
+													<span class="header__notify-info--des"
+														>Kiện hàng EW341126123VN của đơn hàng 20101490S95514
+														đã giao thành công đến bạn</span
+													>
+												</div>
+											</a>
+										</li>
+									</ul>
+									<footer class="header__notify-footer">
+										<a href="#" class="header__notify-footer-btn"
+											>Xem tất cả
+										</a>
+									</footer>
+								</div>
+							</li>
+							<li class="header__navbar-item">
+								<a href="" class="header__navbar-item-link"
+									><i class="header__navbar-icon far fa-question-circle"></i>
+									Trợ giúp
+								</a>
+							</li>
+							<li class="header__navbar-item">
+								<a
+									href=""
+									class="header__navbar-item-link header__navbar-item--separate"
+									>Đăng ký</a
+								>
+							</li>
+							<li class="header__navbar-item">
+								<a href="" class="header__navbar-item-link">Đăng nhập</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+			<div class="container"></div>
+			<footer class="footer"></footer>
+		</div>
+
 		<script src="./assets/js/main.js"></script>
 	</body>
 </html>
