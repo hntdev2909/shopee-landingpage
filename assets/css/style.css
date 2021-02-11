@@ -1041,10 +1041,6 @@
 	margin-top: 8px;
 }
 
-.home-product-item__price-one {
-	opacity: 0;
-}
-
 .home-product-item__price-old {
 	font-size: 1.35rem;
 	color: rgba(0, 0, 0, 0.54);
