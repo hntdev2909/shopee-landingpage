@@ -6,4 +6,4 @@
 
 - [Link to review](https://shopee-clone.netlify.app/)
 
-**WARNING: This page is still not interface responsive yet**
+With the guidance of **[Son Dang F8](https://fullstack.edu.vn/courses)**
